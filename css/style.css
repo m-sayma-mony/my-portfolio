@@ -1,0 +1,504 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	box-sizing: border-box;
+	/*
+	font-family: 'Josefin Sans', sans-serif; 
+
+	font-family: 'Righteous', cursive;
+
+	font-family: 'Kaushan Script', cursive;
+
+	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Cookie', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Great Vibes', cursive;
+	
+	font-family: 'Satisfy', cursive;
+	*/
+}
+ul, ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+.problem{
+	clear: both;
+}
+/*---------nav bar part start-----------*/
+#nav-bar{
+	text-align: center;
+	text-transform: capitalize;
+	background-color: black;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo h3{
+	margin-top: 15px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 4px #FF9000E6;
+	font-family: 'Great Vibes', cursive;
+}
+.menu{
+	width: 80%;
+	float: left;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	padding: 18px 18px;
+	cursor: pointer;
+	transition: all linear .3s;
+}
+.menu ul li a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	color: #FF9000E6;
+	display: block;
+}
+.menu ul li:hover{
+	background-color: white;
+	transition: all linear .3s;
+}
+/*---------nav bar part end-------------*/
+
+/*---------banner part start------------*/
+#banner{
+	background: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner-overlay{
+	font-family: 'Satisfy', cursive;
+	background-color: rgba(255, 144, 0, 0.9);
+	padding: 100px 0;
+}
+.banner-content{
+	text-align: center;
+	color: white;
+}
+img{
+	width: 15%;
+	border-radius: 50%;
+	box-shadow: 3px 3px 50px white;
+}
+.banner-content h1{
+	text-transform: capitalize;
+	font-size: 65px;
+	margin-bottom: 20px;	
+}
+.banner-content p{
+	text-transform: capitalize;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.banner-icon{
+	margin: 0 40%;
+}
+.banner-icon a{
+	font-size: 30px;
+	padding: 0 10px;
+	color: white;
+	transition: all linear .3s;
+}
+.banner-icon a:hover{
+	color: black;
+	transition: all linear .3s;
+}
+/*---------banner part end--------------*/
+
+/*---------about part start--------------*/
+#about{
+	padding: 110px 0;
+}
+.common-heading{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+.common-heading h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 120px;
+}
+.about-info{
+	width: 50%;
+	float: left;
+	padding-top: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-info ul li{
+	padding: 20px 0;
+	font-size: 18px;
+}
+.about-info .first{
+	font-weight: bold;
+	width: 30%;
+	float: left;
+}
+.about-info .second{
+	width: 70%;
+	float: left;
+}
+.cv{
+	padding-top: 60px;
+}
+.cv a{
+	padding: 12px 30px;
+	background-color: #FF9000E6;
+	text-transform: capitalize;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+	transition: all linear .3s;
+}
+.cv a:hover{
+	background-color: black;
+	transition: all linear .3s;
+}
+.about-content{
+	width: 50%;
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.about-content h4{
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.about-content p{
+	font-size: 18px;
+	text-align: justify;
+}
+/*---------about part end----------------*/
+/*--------- resume part start ----------------*/
+#resume{
+	background: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.common-heading2{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+.common-heading2 h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 120px;
+	color: white;
+}
+.background-overlay{
+	background-color: rgba(255, 144, 0, 0.9);
+	padding: 100px 0;
+}
+.cards{
+	background-color: white;
+	width: 47%;
+	float: left;
+	padding: 30px 30px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 5px;
+	margin: 0 0 3% 3%;
+	transition: all linear .3s;
+	border: 1px solid black;
+}
+.cards:hover{
+	box-shadow: 0px 0px 30px black;
+	transition: all linear .3s;
+}
+.cards span i{
+	font-size: 30px;
+	margin-bottom: 20px;
+	background-color: #FF9000E6;
+	color: white;
+	padding: 18px 18px;
+	border-radius: 50%;
+}
+.cards h2{
+	padding-bottom: 20px;
+}
+.cards .institute{
+	padding-bottom: 20px;
+	color: gray;
+}
+.cards .articale{
+	padding-bottom: 20px;
+	text-align: justify;
+}
+/*--------- resume part end ----------------*/
+
+/*--------- skills part start ----------------*/
+#skills{
+	padding: 100px 0;
+}
+.progress-bar{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.main-prog{
+	padding: 10px 50px;
+}
+.main-prog p{
+	text-transform: uppercase;
+	padding: 5px 20px;
+	font-weight: bold;
+}
+.progress{
+	width: 100%;
+	background-color: gray;
+	border-radius: 20px;
+}
+.percentage{
+	text-align: right;
+	padding: 3px 15px;
+	color: white;
+	font-weight: bold;
+}
+.html{
+	width: 85%;
+	background-color: #FF9000E6;
+	border-radius: 20px;
+}
+.css{
+	width: 75%;
+	background-color: #FF9000E6;
+	border-radius: 20px;
+}
+.bootstrap{
+	width: 60%;
+	background-color: #FF9000E6;
+	border-radius: 20px;
+}
+.js{
+	width: 40%;
+	background-color: #FF9000E6;
+	border-radius: 20px;
+}
+/*--------- skills part end ----------------*/
+
+/*--------- works part start ----------------*/
+#works{
+	background-color: #FF9000E6;
+	padding: 100px 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.work-card{
+	width: 23%;
+	float: left;
+	background-color: white;
+	text-align: center;
+	text-transform: capitalize;
+	padding-bottom: 12px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 3%;
+}
+.work-card:hover{
+	box-shadow: 1px 1px 40px white;
+}
+.work-card img{
+	width: 100%;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	transition: all linear .3s;
+}
+.work-card img:hover{
+	transform: scale(1.2);
+	transition: all linear .3s;	
+}
+.gap{
+	margin-right: 2%;
+}
+.work-card p{
+	font-weight: bold;
+	padding-bottom: 13px;
+}
+.work-card a{
+	background-color: #FF9000E6;
+	padding: 6px 25px;
+	color: white;
+	border-radius: 15px;
+	transition: all linear .3s;
+}
+.work-card a:hover{
+	background-color: black;
+	transition: all linear .3s;
+}
+/*--------- works part end ----------------*/
+
+/*--------- service part start ----------------*/
+#service{
+	padding: 100px 0;
+}
+.service-div{
+	background-color: #FF9000E6;
+	width: 32%;
+	float: left;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 50px 0;
+	/*position: relative;*/
+	transition: all linear .3s;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-bottom: 3%;
+}
+/*.service-div:hover .service-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.1);
+	transition: all linear .3s;
+}*/
+.service-div:hover{
+	background-color: black;
+	transition: all linear .3s;
+}
+.service-div a:hover{
+	color: #FF9000E6;
+	transition: all linear .3s;
+}
+.service-div a{
+	color: white;
+	display: block;
+	transition: all linear .3s;
+}
+.service-div a i{
+	font-size: 40px;
+	padding-bottom: 30px;
+	color: white;
+}
+.service-div a h4{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+.service-div a p{
+	font-size: 15px;
+	text-transform: capitalize;
+	padding: 0 20px;
+	line-height: 20px;
+}
+/*--------- service part end ----------------*/
+
+/*--------- contact part start ----------------*/
+#contact{
+	background-color: #FF9000E6;
+	padding: 100px 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.iframe{
+	width: 48%;
+	float: left;
+	margin-right: 7%;
+}
+iframe{
+	width: 100%;
+}
+.form{
+	width: 45%;
+	float: left;
+	padding: 40px 0;
+}
+form{
+	width: 100%;
+}
+form input{
+	height: 40px;
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	border: 0;
+	padding-left: 15px;
+	font-size: 18px;
+	color: white;
+	background-color: transparent;
+	border-bottom: 1px solid white;
+}
+form input::placeholder{
+	color: white;
+}
+textarea{
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	border: 0;
+	font-size: 18px;
+	padding: 15px 0 0 15px;
+	color: black;
+	resize: none;
+}
+textarea::placeholder{
+	color: black;
+}
+button{
+	font-family: 'Josefin Sans', sans-serif;
+	border: 0;
+	padding: 12px 30px;
+	background-color: black;
+	color: #FF9000E6;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: all linear .3s;
+}
+button:hover{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	transition: all linear .3s;
+}
+/*--------- contact part end ----------------*/
+
+/*--------- footer part start ----------------*/
+footer{
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 30px 0;
+	background-color: black;
+}
+.icon{
+	text-align: center;
+}
+.icon a{
+	padding: 0 7px;
+}
+.icon a i{
+	background-color: #FF9000E6;
+	padding: 10px 13px;
+	font-size: 25px;
+	color: white;
+	border-radius: 15px;
+	transition: all linear .3s;
+}
+.icon a i:hover{
+	background-color: white;
+	color: #FF9000E6;
+	transition: all linear .3s;
+}
+.text p{
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	font-size: 13px;
+}
+.text p a{
+	color: #FF9000E6;
+	border-bottom: 1px solid #FF9000E6;
+	transition: all linear .3s;
+}
+.text p a:hover{
+	color: white;
+	transition: all linear .3s;
+}
+/*--------- footer part end ----------------*/
